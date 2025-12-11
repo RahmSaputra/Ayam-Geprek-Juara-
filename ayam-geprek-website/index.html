@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ayam Geprek Juara!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>Ayam Geprek • Pedas • Manis • Gurih</h2>
+        <button id="admin-login-btn">Admin Login</button>
+    </header>
+
+    <section class="hero">
+        <h1 class="title-box">Ayam Geprek Juara!</h1>
+        <p>Kriuknya mantap, sambalnya nagih. Cobain sekali, pasti balik lagi!</p>
+    </section>
+
+    <section class="section description-box">
+        <p>Ayam Geprek Juara adalah website resmi yang menampilkan berbagai pilihan hidangan ayam geprek dengan cita rasa khas yang menggugah selera. Melalui tampilan yang sederhana dan mudah dipahami, pelanggan dapat menjelajahi semua menu yang tersedia, mulai dari Geprek Hot Lava yang dikenal dengan sensasi pedas membara, hingga Geprek Matah yang menawarkan perpaduan segar sambal matah khas Bali. Untuk pelanggan yang menyukai rasa yang lebih sederhana, tersedia juga pilihan Geprek Biasa tanpa nasi serta ayam tanpa digeprek bagi yang ingin menikmati ayam goreng renyah tanpa tambahan sambal.</p>
+        <p>Selain menu utama, website ini juga menyediakan informasi mengenai nasi sebagai pendamping favorit serta minuman segar seperti Es Teh dan Es Susu Coklat. Semua informasi disajikan secara lengkap, termasuk jam operasional, lokasi, hingga layanan pemesanan yang memudahkan pelanggan menikmati rasa juara kapan saja.</p>
+        <p>Dengan kehadiran website ini, Ayam Geprek Juara berkomitmen memberikan pengalaman kuliner yang cepat, mudah, dan penuh cita rasa bagi seluruh pelanggan.</p>
+    </section>
+
+    <section class="section">
+        <h2>Menu Andalan Kami</h2>
+
+        <div class="menu-item">
+            <img src="pic/ayam hot lava.webp" alt="Ayam Geprek Hot Lava" />
+            <div>
+                <h3>Paket Ayam Geprek Hot Lava</h3>
+                <p>Sambal pedas level tinggi dengan karakteristik pedas membara, bikin nagih untuk para pecinta pedas ekstrem.</p>
+                <strong>Rp 20.000</strong>
+                <button class="add-to-cart" data-name="Ayam Geprek Hot Lava" data-price="20000">Tambah ke Keranjang</button>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="pic/ayam sambal matah.jpg" alt="Ayam Geprek BBQ" />
+            <div>
+                <h3>Paket Ayam Geprek Sambal Matah</h3>
+                <p>Sambal matah segar dengan aroma serai dan jeruk nipis, pedas dan menyegarkan.</p>
+                <strong>Rp 19.000</strong>
+                <button class="add-to-cart" data-name="Paket Ayam Geprek Sambal Matah" data-price="19000">Tambah ke Keranjang</button>
+            </div>
+        </div>
+
+        <div class="cta">
+            <button id="whatsapp-order-btn">Pesan Sekarang via WhatsApp</button>
+        </div>
+            <h2>Menu Tambahan</h2>
+
+        <!-- <div class="menu-item">
+            <img src="https://images.unsplash.com/photo-1604908177522-f39f01f244ac?auto=format&fit=crop&w=400&q=60" alt="Paket Ayam + Nasi" />
+            <div>
+                <h3>Paket Ayam + Nasi</h3>
+                <p>1 potong ayam geprek pilihan + nasi hangat. Hemat dan mengenyangkan.</p>
+                <strong>Rp 15.000</strong>
+                <button class="add-to-cart" data-name="Paket Ayam + Nasi" data-price="15000">Tambah ke Keranjang</button>
+            </div>
+        </div> -->
+
+        <div class="menu-item">
+            <img src="pic/Ayam-Geprek.jpg" alt="Ayam dengan Sambal" />
+            <div>
+                <h3>Ayam Geprek (Only)</h3>
+                <p>Ayam goreng dengan sambal geprek pilihan.</p>
+                <strong>Rp 11.000</strong>
+                <button class="add-to-cart" data-name="Ayam Geprek Only" data-price="11000">Tambah ke Keranjang</button>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="pic/ayam goreng.jpg" alt="Ayam Tanpa Sambal" />
+            <div>
+                <h3>Ayam Tanpa Sambal</h3>
+                <p>Ayam goreng crispy tanpa sambal.</p>
+                <strong>Rp 9.000</strong>
+                <button class="add-to-cart" data-name="Ayam Tanpa Sambal" data-price="9000">Tambah ke Keranjang</button>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="pic/nasi.jpg" alt="Nasi Putih" />
+            <div>
+                <h3>Nasi Putih</h3>
+                <p>Nasi putih hangat, cocok dipadukan dengan berbagai menu ayam geprek.</p>
+                <strong>Rp 5.000</strong>
+                <button class="add-to-cart" data-name="Nasi Putih" data-price="5000">Tambah ke Keranjang</button>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="pic/esteh.png" alt="Nasi Putih" />
+            <div>
+                <h3>Es Teh</h3>
+                <p>Minuman manis menyegarkan dengan harga terjangkau.</p>
+                <strong>Rp 3.000</strong>
+                <button class="add-to-cart" data-name="Es Teh" data-price="3000">Tambah ke Keranjang</button>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="pic/susu coklat.jpg" alt="Nasi Putih" />
+            <div>
+                <h3>Es Susu Coklat</h3>
+                <p>Minuman susu coklat segar.</p>
+                <strong>Rp 5.000</strong>
+                <button class="add-to-cart" data-name="Es Susu Coklat" data-price="5000">Tambah ke Keranjang</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="cart-section" class="section">
+        <h2>Keranjang Belanja</h2>
+        <div id="cart-items"></div>
+        <div id="cart-total">Total: Rp 0</div>
+        <button id="checkout-btn">Checkout</button>
+    </section>
+
+    <!-- Admin Login Modal -->
+    <div id="admin-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Admin Login</h2>
+            <form id="admin-login-form">
+                <input type="text" id="admin-username" placeholder="Username" required>
+                <input type="password" id="admin-password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Stock Modal -->
+    <div id="stock-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Stok Barang</h2>
+            <ul id="stock-list">
+                <li>Paket Ayam Geprek Hot Lava: 40 pcs</li>
+                <li>Paket Ayam Geprek Sambal Matah: 40 pcs</li>
+                <li>Ayam Geprek (Only): 60 pcs</li>
+                <li>Ayam Tanpa Sambal: 60 pcs</li>
+                <li>Nasi Putih: 60 pcs</li>
+                <li>Es Teh: 60 pcs</li>
+                <li>Es Susu Coklat: 30 pcs</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Payment Modal -->
+    <div id="payment-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Pembayaran</h2>
+            <form id="payment-form">
+                <input type="text" id="payment-name" placeholder="Nama" required>
+                <input type="text" id="payment-amount" placeholder="Jumlah Bayar (Rp)" required>
+                <button type="submit">Bayar</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 Ayam Geprek Juara!. Semua Hak Dilindungi.<br>Alamat: Palebon 1 No. 42A, Kota Semarang, Jawa Tengah, Indonesia</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
